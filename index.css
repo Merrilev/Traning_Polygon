@@ -31,12 +31,12 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type="number"] {
+/* input[type="number"] {
   -moz-appearance: textfield;
-}
+} */
 
 img {
-  user-drag: none;
+  /* user-drag: none; */
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -99,9 +99,62 @@ body,
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 auto;
+  height: 580px;
+  align-items: flex-start;
 }
-
+.frame {
+  height: 100%;
+  vertical-align: top;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .tex1 {
   font-size: 70px;
   margin: 0;
+}
+.tex2 {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.group1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 auto;
+  height: auto;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+.kno {
+  font-size: 30px;
+  text-align: center;
+}
+.kar {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+.kart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.raz {
+  padding: 14px 20px;
+}
+.dva {
+  padding: 14px 20px;
+}
+.tri {
+  padding: 14px 20px;
 }
