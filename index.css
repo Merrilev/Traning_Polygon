@@ -89,3 +89,19 @@ body,
   background-color: black;
   color: white;
 }
+.main2 {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tex1 {
+  font-size: 70px;
+  margin: 0;
+}
