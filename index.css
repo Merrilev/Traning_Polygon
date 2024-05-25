@@ -53,15 +53,21 @@ body,
 }
 .main {
   margin: 0 auto;
-
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 40px;
-
+  padding-bottom: 100px;
   max-width: 960px;
   width: 100%;
 
   display: flex;
   flex-direction: column;
   gap: 120px;
+}
+@media screen and (max-width: 1023px) {
+  .main {
+    max-width: 360px;
+  }
 }
 .navi {
   display: flex;
@@ -79,10 +85,20 @@ body,
   font-size: 18px;
   padding: 14px 20px;
 }
+@media screen and (max-width: 1023px) {
+  .Fuv {
+    display: none;
+  }
+}
 .traxater {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+@media screen and (max-width: 1023px) {
+  .traxater {
+    display: none;
+  }
 }
 .Puk {
   padding: 14px 20px;
@@ -94,13 +110,25 @@ body,
   background-color: black;
   color: white;
 }
-
+.Z_little {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .Z_little {
+    display: block;
+  }
+}
 .step {
   padding: 0 auto;
 
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
+}
+@media screen and (max-width: 1023px) {
+  .step {
+    flex-direction: column;
+  }
 }
 .frame {
   height: 100%;
@@ -112,6 +140,11 @@ body,
 .tex1 {
   font-size: 70px;
   margin: 0;
+}
+@media screen and (max-width: 1023px) {
+  .tex1 {
+    font-size: 40px;
+  }
 }
 .tex2 {
   font-size: 18px;
@@ -157,6 +190,12 @@ body,
   padding-top: 20px;
   padding-bottom: 40px;
 }
+@media screen and (max-width: 1023px) {
+  .kart {
+    gap: 8px;
+    justify-content: center;
+  }
+}
 .raz {
   padding: 14px 20px;
 }
@@ -166,12 +205,23 @@ body,
 .tri {
   padding: 14px 20px;
 }
-
+@media screen and (max-width: 1023px) {
+  .raz,
+  .dva,
+  .tri {
+    padding: 0;
+    max-width: 100px;
+  }
+  .photo {
+    display: none;
+  }
+}
 .step2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .frame2 {
   display: flex;
   flex-direction: column;
@@ -213,6 +263,7 @@ body,
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .fram {
   display: flex;
   flex-direction: column;
@@ -230,6 +281,11 @@ body,
 }
 .buil {
   font-size: 60px;
+}
+@media screen and (max-width: 1023px) {
+  .buil {
+    font-size: 30px;
+  }
 }
 .pizda_mne {
   display: flex;
@@ -268,8 +324,13 @@ body,
   font-weight: 700;
   font-size: 50px;
   text-align: end;
-  width: 400px;
+
   height: 0 auto;
+}
+@media screen and (max-width: 1023px) {
+  .select {
+    font-size: 30px;
+  }
 }
 .tteexxtt {
   font-size: 18px;
@@ -281,6 +342,11 @@ body,
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+@media screen and (max-width: 1023px) {
+  .step5 {
+    flex-direction: column;
+  }
 }
 .v_axye1 {
   display: flex;
@@ -489,7 +555,12 @@ body,
   justify-content: space-between;
   align-items: flex-start;
   background-color: black;
-  border-radius: 10px;
+}
+@media screen and (max-width: 1023px) {
+  .step7 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .fr {
   display: flex;
@@ -567,4 +638,11 @@ body,
 }
 .ooo {
   padding: 5px 8px;
+}
+@media screen and (max-width: 1023px) {
+  .pho,
+  .foto,
+  .kartochka {
+    display: none;
+  }
 }
